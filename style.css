@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+    background-color: antiquewhite;
+}
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(44, 199, 199);
+}
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin-top: 50px;
+    text-align: center;
+}
+.cangiua {
+    justify-content: center;
+    display: flex;
+}
+th , td {
+    border:2px solid black;
+    padding: 10px;
+}
+tr :nth-child(even) {
+    background-color: #ffffff;
+}
+tr :nth-child(odd) {
+    background-color: #f9f9f9;
+}
+tr :hover {
+    background-color: #0ef70e;
+}
+footer {
+    margin-top: 100px;
+    font-size: xx-large;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color: rgb(45, 139, 139);
+
+}
+footer::after {
+    content: '---';
+}
+footer::before {
+    content: '---';
+}
